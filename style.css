@@ -1,0 +1,19 @@
+*{
+    background-color: rgb(195, 243, 183);
+}
+h1,h2,h3{
+    background-color: rgb(17, 68, 4);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+
+}
+nav,a{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    background-color: rgb(17, 68, 4);
+    color: rgb(195, 243, 183);
+    
+}
+
