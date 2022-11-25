@@ -1,28 +1,34 @@
 *{
-    background-color: rgb(195, 243, 183);
+    background-color: rgb(255, 255, 255);
 }
 h1,h2,h3{
-    background-color: rgb(17, 68, 4);
+    background-color: rgb(172, 218, 161);
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 3px;
-    margin: 0px 3px;
+    margin: 0px, 5px;
     border-top: solid green 5px ;
-
+    
 }
 nav,a{
     display: flex;
     justify-content: space-around;
-    text-decoration: none;
     background-color: rgb(17, 68, 4);
+
+}
+a{
+    text-decoration: none;
     color: rgb(195, 243, 183);
-    transition: ease 1s;
+    transition: ease .6s;
+    font-size: 20px;
     
 }
 
-header a:hover{
+a:hover{
 
     color: green;
+    font-size: 22px;
+
 }
