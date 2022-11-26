@@ -10,7 +10,18 @@ h1,h2,h3{
     padding: 3px;
     margin: 0px, 5px;
     border-top: solid green 5px ;
-    
+
+}
+h22{
+    background-color: rgb(172, 218, 161);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin: 0px, 5px;
+    border-top: solid green 5px ;
+    font-size: 32px;
 }
 nav,a{
     display: flex;
