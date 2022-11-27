@@ -1,43 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
 *{
     background-color: rgb(255, 255, 255);
+    font-family: "cairo";
+    box-sizing: border-box;
 }
-h1,h2,h3{
+h1{
+    color: green;
     background-color: rgb(172, 218, 161);
-    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+nav1{
+    background-color: rgb(172, 218, 161);
     display: flex;
-    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
     align-items: center;
-    padding: 3px;
-    margin: 0px, 5px;
-    border-top: solid green 5px ;
+}
+a1{
+    text-decoration: none;
+    color:green;
+    background-color: rgb(172, 218, 161);
+    transition: ease .6s;
+    font-size: 20px;
+}
+a2{
+    text-decoration: none;
+    color:green;
+    background-color: rgb(172, 218, 161);
+    transition: ease .6s;
+    font-size: 50px;
+}
 
-}
-h22{
+header{
     background-color: rgb(172, 218, 161);
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
-    margin: 0px, 5px;
     border-top: solid green 5px ;
-    font-size: 32px;
+    position: fixed;
+    width: 100%
+    
 }
 nav,a{
     display: flex;
     justify-content: space-around;
     background-color: rgb(17, 68, 4);
-
+       color: rgb(195, 243, 183);
+    transition: ease .6s;
+    font-size: 20px;
+   
+ 
 }
 a{
     text-decoration: none;
     color: rgb(195, 243, 183);
     transition: ease .6s;
     font-size: 20px;
-    
 }
 
 a:hover{
+    text-decoration:underline;
 
     color: green;
     font-size: 22px;
