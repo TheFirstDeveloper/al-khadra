@@ -63,7 +63,7 @@ header a:hover{
 
 }
 
-.carso {
+.carsour {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -77,10 +77,10 @@ header a:hover{
     background-position: center;
 
 }
-.carso span{
+.carsour span{
     color: green;
 }
-.carso a{
+.carsour a{
     color: rgb(255, 255, 255);
     background-color: rgb(29, 128, 9);
     padding: 10px;
@@ -93,7 +93,7 @@ header a:hover{
     transition: ease .5s;
 }
 
-.carso a:hover{
+.carsour a:hover{
     text-decoration:underline;
     color: rgb(9, 59, 9);
     background-color: aquamarine;
