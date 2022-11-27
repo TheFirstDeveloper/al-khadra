@@ -1,29 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
 *{
-    background-color: rgb(255, 255, 255);
     font-family: "cairo";
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
-h1{
+header h1{
     color: green;
     background-color: rgb(172, 218, 161);
     font-size: 50px;
 }
-nav1{
+header nav1{
     background-color: rgb(172, 218, 161);
     display: flex;
     justify-items: center;
     flex-direction: column;
     align-items: center;
 }
-a1{
+header a1{
     text-decoration: none;
     color:green;
     background-color: rgb(172, 218, 161);
     transition: ease .6s;
     font-size: 20px;
 }
-a2{
+header a2{
     text-decoration: none;
     color:green;
     background-color: rgb(172, 218, 161);
@@ -38,27 +39,65 @@ header{
     width: 100%
     
 }
-nav,a{
+header nav{
     display: flex;
     justify-content: space-around;
     background-color: rgb(17, 68, 4);
-       color: rgb(195, 243, 183);
+    color: rgb(195, 243, 183);
     transition: ease .6s;
     font-size: 20px;
    
  
 }
-a{
+header a{
     text-decoration: none;
     color: rgb(195, 243, 183);
     transition: ease .6s;
     font-size: 20px;
 }
 
-a:hover{
+header a:hover{
     text-decoration:underline;
-
     color: green;
     font-size: 22px;
 
 }
+
+.carso {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: rgb(8, 148, 71);
+    padding: 0px 80px;
+    background-size: cover;
+    background-image: url(images/choose\ for\ you.jpg);
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .5);
+    background-position: center;
+
+}
+.carso span{
+    color: green;
+}
+.carso a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 128, 9);
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+    display: inline-block;
+    margin-top: 10px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    transition: ease .5s;
+}
+
+.carso a:hover{
+    text-decoration:underline;
+    color: rgb(9, 59, 9);
+    background-color: aquamarine;
+    font-size: 16px;
+
+}
+
