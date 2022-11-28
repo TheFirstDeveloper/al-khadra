@@ -10,30 +10,41 @@ header h1{
     background-color: rgb(172, 218, 161);
     font-size: 50px;
 }
+nav3{
+    display: flex;
+    justify-content: right;
+    align-items: center;    
+    padding-right: 100px ;
+    height: 100px; 
+    background-image: linear-gradient(to right,  #04b430, #47d69b,#f7df00, #ffffff, #ffffff,  #ffffff, #04b430); 
+
+}
 header nav1{
-    background-color: rgb(172, 218, 161);
     display: flex;
     justify-items: center;
-    flex-direction: column;
     align-items: center;
+    margin-inline-end: 10px ;
+    height: 50px;
+
 }
 header a1{
     text-decoration: none;
     color:green;
-    background-color: rgb(172, 218, 161);
     transition: ease .6s;
     font-size: 20px;
+    margin-inline-end: 250px ;
+
 }
 header a2{
     text-decoration: none;
     color:green;
-    background-color: rgb(172, 218, 161);
     transition: ease .6s;
     font-size: 50px;
+
 }
 
 header{
-    background-color: rgb(172, 218, 161);
+    background-color:white;
     border-top: solid green 5px ;
     position: fixed;
     width: 100%
@@ -41,25 +52,24 @@ header{
 }
 header nav{
     display: flex;
-    justify-content: space-around;
-    background-color: rgb(17, 68, 4);
-    color: rgb(195, 243, 183);
+    justify-content: center;
     transition: ease .6s;
     font-size: 20px;
-   
- 
+    height: 30px;
 }
+
 header a{
+    color: green;
     text-decoration: none;
-    color: rgb(195, 243, 183);
     transition: ease .6s;
-    font-size: 20px;
+    font-size: 16px;
+    padding: 0px 40px;
 }
 
 header a:hover{
     text-decoration:underline;
-    color: green;
-    font-size: 22px;
+    color: red;
+    font-size: 17px;
 
 }
 
@@ -70,10 +80,10 @@ header a:hover{
     color: rgb(8, 148, 71);
     padding: 0px 80px;
     background-size: cover;
-    background-image: url(images/choose\ for\ you.jpg);
+    background-image: url(images/city40.png);
     background-attachment: fixed;
     background-blend-mode: overlay;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .8);
     background-position: center;
 
 }
@@ -100,4 +110,5 @@ header a:hover{
     font-size: 16px;
 
 }
-
+.gradient {
+}
