@@ -68,8 +68,7 @@ header a{
 
 header a:hover{
     text-decoration:underline;
-    color: red;
-    font-size: 17px;
+    transform: scale(1.1);
 
 }
 
@@ -100,15 +99,39 @@ header a:hover{
     width: 130px;
     text-align: center;
     text-decoration: none;
-    transition: ease .5s;
+    transition: ease 1000ms;
 }
 
 .carsour a:hover{
     text-decoration:underline;
     color: rgb(9, 59, 9);
     background-color: aquamarine;
-    font-size: 16px;
+    transform: scale(1.1);
 
 }
-.gradient {
+
+.services .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 10px;
+    margin: 0px 30px;
+
 }
+.services .card{
+    box-shadow: 2px 2px 5px 5px #ccc;
+    padding: 10px;
+    width: 18em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.services h3{
+    text-align: center;
+}
+.card h4{
+    color: crimson;
+    font-size: 28px;
+}
+
+
+
