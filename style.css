@@ -78,7 +78,7 @@ header a:hover{
     align-items: center;
     color: rgb(8, 148, 71);
     padding: 0px 80px;
-    background-size: cover;
+    background-size: 100%;
     background-image: url(images/city40.png);
     background-attachment: fixed;
     background-blend-mode: overlay;
@@ -123,6 +123,7 @@ header a:hover{
     box-shadow: 2px 2px 5px 5px #ccc;
     padding: 10px;
     width: 18em;
+    margin: 0px 10px;
     margin-bottom: 40px;
     text-align: center;
     transition: ease 1000ms;
@@ -136,9 +137,9 @@ header a:hover{
     font-size: 40px;
     color: green;
 }
-.card h4{
+.services .container .card h4{
     color: crimson;
-    font-size: 28px;
+    font-size: 22px;
 }
 
 
