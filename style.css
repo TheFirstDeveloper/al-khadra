@@ -4,7 +4,29 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gray;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: green;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(172, 241, 193);
+  }
 header h1{
     color: green;
     background-color: rgb(172, 218, 161);
@@ -129,6 +151,7 @@ header a:hover{
     transition: ease 1000ms;
     border: solid green 2px;
     border-radius: 40px 0px;
+    overflow: hidden;
 
 }
 .services .card:hover{
@@ -152,4 +175,27 @@ header a:hover{
 
 .card p{
     font-weight: 800;
+}
+
+.up i{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.up :hover{
+    background-color: white;
+    color: green;
+    border: solid green 2px;
 }
