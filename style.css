@@ -131,7 +131,14 @@ header a:hover{
     transform: scale(1.1);
 
 }
+.services .margen{
+    display: flex;
+    align-items: center;
+    height: 140px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
 
+}
 .services .container{
     display: flex;
     flex-wrap: wrap;
@@ -167,7 +174,58 @@ header a:hover{
 .services .container .card h4{
     display: flex;
     justify-content: center;
+    font-size: 25px;    
+    color: crimson;
+    width: 100%;
 
+}
+
+.card p{
+    font-weight: 800;
+}
+.al-khadra .margen{
+    display: flex;
+    align-items: center;
+    height: 140px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+
+}
+.al-khadra .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 10px;
+    margin: 20px 30px;
+    transition: ease 1000ms;
+
+}
+.al-khadra .card{
+    box-shadow: 2px 2px 5px 5px #ccc;
+    padding: 10px;
+    width: 18em;
+    margin: 0px 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    transition: ease 1000ms;
+    border: solid green 2px;
+    border-radius: 40px 0px;
+    overflow: hidden;
+
+}
+.al-khadra .card:hover{
+    transform: scale(1.1);
+}
+.al-khadra h3{
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}
+
+
+.al-khadra .container .card h4{
+    display: flex;
+    justify-content: center;
     color: crimson;
     width: 100%;
     font-size: 25px;
@@ -176,7 +234,19 @@ header a:hover{
 .card p{
     font-weight: 800;
 }
-
+.map {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.map div {
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 10px 35px 0px lightgrey;
+}
+.map iframe {
+    width: 100%;
+}
 .up i{
     position: fixed;
     display: flex;
@@ -194,7 +264,7 @@ header a:hover{
 
 }
 
-.up :hover{
+.up:hover{
     background-color: white;
     color: green;
     border: solid green 2px;
