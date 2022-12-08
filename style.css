@@ -36,7 +36,7 @@ nav3{
     display: flex;
     justify-content: right;
     align-items: center;    
-    padding-right: 5rem ;
+    padding-right: 5vh ;
     background-image: linear-gradient(to right,  #04b430, #47d69b,#f7df00, #ffffff, #ffffff,  #ffffff, #04b430); 
     flex-wrap: wrap;
     max-block-size: 10vh;
