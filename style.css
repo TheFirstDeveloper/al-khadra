@@ -36,15 +36,15 @@ nav3{
     display: flex;
     justify-content: right;
     align-items: center;    
-    padding-right: 1rem ;
+    padding-right: 5rem ;
     background-image: linear-gradient(to right,  #04b430, #47d69b,#f7df00, #ffffff, #ffffff,  #ffffff, #04b430); 
     flex-wrap: wrap;
-    max-block-size: 18vh;
+    max-block-size: 10vh;
 
 }
 header nav3 img{
-    max-height: 10vh;
-    margin: 1% 0px;
+    max-height: 5vh;
+    margin: 1% 10px;
 }
 header nav1{
     display: flex;
@@ -57,7 +57,7 @@ header a1{
     position: fixed;
     color:green;
     transition: ease .6s;
-    font-size: 3vh;
+    font-size: 2vh;
     z-index: auto;
     width: 100%;;
     text-align: center;
@@ -67,7 +67,7 @@ header a2{
     text-decoration: none;
     color:green;
     transition: ease .6s;
-    font-size: 5vh;
+    font-size: 3vh;
 
 }
 
