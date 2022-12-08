@@ -36,7 +36,7 @@ nav3{
     display: flex;
     justify-content: right;
     align-items: center;    
-    padding-right: 100px ;
+    padding-right: 1em ;
     height: 100px; 
     background-image: linear-gradient(to right,  #04b430, #47d69b,#f7df00, #ffffff, #ffffff,  #ffffff, #04b430); 
 
@@ -50,18 +50,22 @@ header nav1{
 
 }
 header a1{
-    text-decoration: none;
+    align-items: center;
+    position: fixed;
     color:green;
     transition: ease .6s;
     font-size: 20px;
-    margin-inline-end: 250px ;
+    z-index: auto;
+    width: 100%;;
+    height: 50px;
+    text-align: center;
 
 }
 header a2{
     text-decoration: none;
     color:green;
     transition: ease .6s;
-    font-size: 50px;
+    font-size: 250%;
 
 }
 
@@ -72,7 +76,7 @@ header{
     width: 100%;
     z-index: 100;
 }
-header nav{
+header .item-menu{
     display: flex;
     justify-content: center;
     transition: ease .6s;
@@ -80,15 +84,15 @@ header nav{
     height: 30px;
 }
 
-header a{
+header .item-menu a{
     color: green;
     text-decoration: none;
     transition: ease .6s;
     font-size: 16px;
-    padding: 0px 40px;
+    padding: 0px 20px;
 }
 
-header a:hover{
+header .item-menu a:hover{
     text-decoration:underline;
     transform: scale(1.1);
 
